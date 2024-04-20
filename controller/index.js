@@ -5,7 +5,7 @@ const mailer = require('../model/mailer');
 const upload = multer({ dest: 'uploads/' })
 const view = require('../view/mailGen');
 const app = express()
-const PORT = 8080; //process.env.PORT ||
+const PORT = process.env.PORT || 8080; //
 
 
 //Test route
