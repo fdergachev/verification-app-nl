@@ -1,3 +1,5 @@
+//That is not a view
+
 require('dotenv').config();
 
 function applicationMail(req, date, fullUrl) {

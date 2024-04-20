@@ -73,7 +73,7 @@ app.post('/application', cpUpload, function (req, res, next) {
    })
 })
 
-
+// Why it is here
 app.listen(
    PORT,
    () => console.log(`http://localhost:${PORT}`)
